@@ -1,3 +1,6 @@
+import '@/app/ui/global.css';
+// cria importacao de tailwind css para o layout do app
+
 export default function RootLayout({
   children,
 }: {
