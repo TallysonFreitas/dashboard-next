@@ -1,4 +1,5 @@
 import '@/app/ui/global.css';
+import { inter } from './ui/fonts';
 // cria importacao de tailwind css para o layout do app
 
 export default function RootLayout({
@@ -8,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
